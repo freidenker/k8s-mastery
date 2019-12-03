@@ -9,6 +9,9 @@ venv/
 target/
 .mvn/
 !**/maven-wrapper.jar
+sa-webapp/.project
+sa-webapp/.classpath
+sa-webapp/.settings/
 
 # IDE ignored files
 .idea/
