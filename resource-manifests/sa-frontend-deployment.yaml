@@ -21,8 +21,8 @@ spec:
         app: sa-frontend                                  # 6
     spec:
       containers:
-        - image: freidenker/sentiment-analysis-frontend
+        - image: freidenker/sentiment-analysis-frontend:winteringress01
           imagePullPolicy: Always                         # 7
           name: sa-frontend
           ports:
-            - containerPort: 80
+            - containerPort: 8080
