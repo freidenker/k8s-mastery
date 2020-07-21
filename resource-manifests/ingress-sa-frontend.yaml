@@ -1,0 +1,15 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: sa-frontend
+  namespace: winter
+spec:
+  rules:
+  - host: pe.freidenker.tech
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: frontend
+          servicePort: 8080
+
